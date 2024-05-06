@@ -3,58 +3,164 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Cool Space Website</title>
-  <link rel="stylesheet" href="styles.css">
+  <title>Vardhman Uniforms - Your Uniform Partner</title>
+  <style>
+    /* Your CSS styles go here */
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f7f7f7;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #0047ab;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    h1 {
+      margin: 0;
+    }
+
+    nav {
+      background-color: #001a66;
+      padding: 10px 0;
+      text-align: center;
+    }
+
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav ul li {
+      display: inline;
+      margin-right: 20px;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: #fff;
+      font-weight: bold;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 100px 0;
+      color: #fff;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    footer {
+      background-color: #001a66;
+      color: #fff;
+      text-align: center;
+      padding: 20px 0;
+    }
+
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      margin-top: 20px;
+    }
+
+    .gallery img {
+      width: 300px;
+      margin-bottom: 20px;
+      border-radius: 8px;
+    }
+
+    .contact-form {
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .contact-form input[type="text"],
+    .contact-form input[type="email"],
+    .contact-form textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      box-sizing: border-box;
+    }
+
+    .contact-form input[type="submit"] {
+      background-color: #0047ab;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+  </style>
 </head>
 <body>
+
   <header>
-    <h1>Welcome to the Cool Space Website</h1>
-    <nav>
-      <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#services">Services</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
+    <h1>Welcome to Vardhman Uniforms</h1>
   </header>
 
-  <section id="home">
-    <div class="hero">
-      <h2>Discover the wonders of the universe with us!</h2>
-      <a href="#about" class="btn">Learn More</a>
+  <nav>
+    <ul>
+      <li><a href="#about">About Us</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+      <li><a href="#contact">Contact Us</a></li>
+    </ul>
+  </nav>
+
+  <div class="hero">
+    <h2>Your Trusted Uniform Partner for Over 40 Years</h2>
+    <p>Providing Quality Uniform Solutions in Bajaja Bazaar, Alwar, Rajasthan 301001</p>
+  </div>
+
+  <section id="about" class="container">
+    <h2>About Vardhman Uniforms</h2>
+    <p>Vardhman Uniforms has been serving the community for over four decades, offering a wide range of high-quality uniform solutions for various industries. Founded by Namit Jain and Mahendra Kumar Jain, our commitment to excellence and customer satisfaction has made us a trusted name in the uniform business.</p>
+  </section>
+
+  <section id="gallery" class="container">
+    <h2>Uniform Gallery</h2>
+    <div class="gallery">
+      <!-- Add your uniform photos here -->
+      <img src="uniform1.jpg" alt="Uniform 1">
+      <img src="uniform2.jpg" alt="Uniform 2">
+      <img src="uniform3.jpg" alt="Uniform 3">
+      <img src="uniform4.jpg" alt="Uniform 4">
     </div>
   </section>
 
-  <section id="about">
-    <div class="container">
-      <h2>About Us</h2>
-      <p>We are a team of space enthusiasts dedicated to bringing the mysteries of the cosmos closer to you.</p>
-    </div>
-  </section>
-
-  <section id="services">
-    <div class="container">
-      <h2>Our Services</h2>
-      <ul>
-        <li>Stargazing Tours</li>
-        <li>Space Exploration Trips</li>
-        <li>Astronomy Workshops</li>
-        <li>Virtual Reality Experiences</li>
-      </ul>
-    </div>
-  </section>
-
-  <section id="contact">
-    <div class="container">
-      <h2>Contact Us</h2>
-      <p>Reach out to us for inquiries, bookings, or just to say hello!</p>
-      <p>Email: contact@coolspacewebsite.com</p>
+  <section id="contact" class="container">
+    <h2>Contact Us for a Quote</h2>
+    <div class="contact-form">
+      <form action="your_google_form_url" method="POST">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" placeholder="Your Message" rows="4" required></textarea>
+        <input type="submit" value="Submit">
+      </form>
     </div>
   </section>
 
   <footer>
-    <p>&copy; 2024 Cool Space Website. All rights reserved.</p>
+    <p>&copy; 2024 Vardhman Uniforms. All rights reserved.</p>
   </footer>
 
 </body>
