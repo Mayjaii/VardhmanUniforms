@@ -1,68 +1,61 @@
-/* styles.css */
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cool Space Website</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Welcome to the Cool Space Website</h1>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
-/* Reset CSS */
-body, h1, h2, p, ul, li {
-  margin: 0;
-  padding: 0;
-}
+  <section id="home">
+    <div class="hero">
+      <h2>Discover the wonders of the universe with us!</h2>
+      <a href="#about" class="btn">Learn More</a>
+    </div>
+  </section>
 
-body {
-  font-family: Arial, sans-serif;
-  background-color: #111;
-  color: #fff;
-}
+  <section id="about">
+    <div class="container">
+      <h2>About Us</h2>
+      <p>We are a team of space enthusiasts dedicated to bringing the mysteries of the cosmos closer to you.</p>
+    </div>
+  </section>
 
-header {
-  background-color: #222;
-  padding: 20px;
-}
+  <section id="services">
+    <div class="container">
+      <h2>Our Services</h2>
+      <ul>
+        <li>Stargazing Tours</li>
+        <li>Space Exploration Trips</li>
+        <li>Astronomy Workshops</li>
+        <li>Virtual Reality Experiences</li>
+      </ul>
+    </div>
+  </section>
 
-header h1 {
-  font-size: 32px;
-  margin-bottom: 10px;
-}
+  <section id="contact">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <p>Reach out to us for inquiries, bookings, or just to say hello!</p>
+      <p>Email: contact@coolspacewebsite.com</p>
+    </div>
+  </section>
 
-nav ul {
-  list-style-type: none;
-}
+  <footer>
+    <p>&copy; 2024 Cool Space Website. All rights reserved.</p>
+  </footer>
 
-nav ul li {
-  display: inline;
-  margin-right: 20px;
-}
-
-nav ul li a {
-  text-decoration: none;
-  color: #fff;
-}
-
-.hero {
-  text-align: center;
-  padding: 100px 0;
-}
-
-.hero h2 {
-  font-size: 48px;
-  margin-bottom: 20px;
-}
-
-.btn {
-  display: inline-block;
-  padding: 10px 20px;
-  background-color: #4CAF50;
-  color: #fff;
-  text-decoration: none;
-  border-radius: 5px;
-}
-
-.container {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 20px;
-}
-
-footer {
-  background-color: #222;
-  padding: 20px;
-  text-align: center;
-}
+</body>
+</html>
