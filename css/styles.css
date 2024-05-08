@@ -384,8 +384,13 @@ margin-bottom: 30px;
 	font-weight: 900;
 }
 .navbar-brand b i {
-	color: #fff;
-	font-style: normal;
+	color: black; /* Text color */
+  -webkit-text-stroke: 1px white; /* White outline for webkit browsers */
+  text-shadow:
+    -1px -1px 0 #fff,  
+     1px -1px 0 #fff,
+    -1px  1px 0 #fff,
+     1px  1px 0 #fff; /* Cross-browser text outline */
 }
 .logo {
 	font-size: 2.2em;
